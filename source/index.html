@@ -28,10 +28,10 @@
                 </li>
             </ul>
         </nav>
-        <button class="header__btn">
+        <button class="header__btn search-btn">
             <img class="header__btn-img" src="img/#.svg" alt="иконка поиска" width="" height=""> 
         </button>
-        <button class="header__btn">
+        <button class="header__btn box-btn">
             <img class="header__btn-img" src="img/#.svg" alt="корзина" width="" height="">
             <span class="header__btn-text">Корзина: пока пуста</span>
         </button>
@@ -46,13 +46,13 @@
                 <img class="desc__img" src="img/#.jpg" alt="заставка" width="" height="">
             </div>
             <div class="desc__blocks>">
-                <div class="desc__blocks__items">
-                    <p class="desc__blocks__items-text">Предметы интерьера</p>
-                    <img class="desc__blocks__items-img" src="img/#.svg" alt="лампа" width="" height="">
+                <div class="desc__blocks-items">
+                    <p class="desc__blocks-items-text">Предметы интерьера</p>
+                    <img class="desc__blocks-items-img" src="img/#.svg" alt="лампа" width="" height="">
                 </div>
-                <div class="desc__blocks__items">
-                    <p class="desc__blocks__items-text">Детские игрушки</p>
-                    <img class="desc__blocks__items-img" src="img/#.svg" alt="кубик" width="" height="">
+                <div class="desc__blocks-items">
+                    <p class="desc__blocks-items-text">Детские игрушки</p>
+                    <img class="desc__blocks-items-img" src="img/#.svg" alt="кубик" width="" height="">
                 </div>
             </div>
         </section>
@@ -63,75 +63,128 @@
                 <b class="top-product__label">Товар недели</b>
                 <p class="top-product__desc">Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трёх размерах.</p>
                 <table class="top-product__list">
-                    <tr>
-                      <td class="top-product__value">
-                        Цвет:
-                      </td>
-                      <td class="top-product__field">
-                        "Тиффани"/серый
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="top-product__value">
-                        Диаметр:
-                      </td>
-                      <td class="top-product__field">
-                        25 см
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="top-product__value">
-                        Высота:
-                      </td>
-                      <td class="top-product__field">
-                        15 см
-                      </td>
-                    </tr>
+                    <tbody>
+                        <tr>
+                            <td class="top-product__value">
+                                Цвет:
+                            </td>
+                            <td class="top-product__field">
+                                "Тиффани"/серый
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="top-product__value">
+                                Диаметр:
+                            </td>
+                            <td class="top-product__field">
+                                25 см
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="top-product__value">
+                                Высота:
+                            </td>
+                            <td class="top-product__field">
+                                15 см
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>  
             </div>
             <div class="top-product__item">
-                <img class="top-product__item__img" src="img/#.jpg" alt="горшки" width="" height="">
-                <p class="top-product__item__price">Цена: 990 руб.</p>
-                <a class="top-product__item__btn button">заказать</a>
+                <img class="top-product__item-img" src="img/#.jpg" alt="горшки" width="" height="">
+                <p class="top-product__item-price">Цена: 990 руб.</p>
+                <a class="top-product__item-btn button">заказать</a>
             </div>
         </section>
 
         <section class="about-us">
             <div class="about-us__wrapper">
-                <b class="about-us__h">Коротко о нас</b>
-                <img class="about-us__img1" src="img/#.jpg" alt="icon1" width="" height="">
-                <p class="about-us__desc1">Экологически чистые материалы</p>
-                <img class="about-us__img2" src="img/#.jpg" alt="icon2" width="" height="">
-                <p class="about-us__desc1">Скандинавский стиль по российской цене</p>
-                <img class="about-us__img3" src="img/#.jpg" alt="icon3" width="" height="">
-                <p class="about-us__desc1">Увеличивает лайки на фотографиях</p>
-                <img class="about-us__img4" src="img/#.jpg" alt="icon4" width="" height="">
-                <p class="about-us__desc1">Связано вручную с любовью и умилением</p>
-                <img class="about-us__img5" src="img/#.jpg" alt="icon5" width="" height="">
-                <p class="about-us__desc1">Поддержка отечественного производителя</p>
-                <img class="about-us__img6" src="img/#.jpg" alt="icon6" width="" height="">
-                <p class="about-us__desc1">Поставляется в подарочной упаковке</p>
+                <h2 class="about-us__header heading2">Коротко о нас</h2>
+                <div class="about-us__item">
+                    <img class="about-us__img" src="img/#.jpg" alt="icon1" width="" height="">
+                    <p class="about-us__desc1">Экологически чистые материалы</p>
+                </div>
+                <div class="about-us__item">
+                    <img class="about-us__img" src="img/#.jpg" alt="icon2" width="" height="">
+                    <p class="about-us__desc1">Скандинавский стиль по российской цене</p>
+                </div>
+                <div class="about-us__item">
+                    <img class="about-us__img" src="img/#.jpg" alt="icon3" width="" height="">
+                    <p class="about-us__desc1">Увеличивает лайки на фотографиях</p>
+                </div>
+                <div class="about-us__item">
+                    <img class="about-us__img" src="img/#.jpg" alt="icon4" width="" height="">
+                    <p class="about-us__desc1">Связано вручную с любовью и умилением</p>
+                </div>
+                <div class="about-us__item">
+                    <img class="about-us__img" src="img/#.jpg" alt="icon5" width="" height="">
+                    <p class="about-us__desc1">Поддержка отечественного производителя</p>
+                </div>
+                <div class="about-us__item">
+                    <img class="about-us__img" src="img/#.jpg" alt="icon6" width="" height="">
+                    <p class="about-us__desc1">Поставляется в подарочной упаковке</p>
+                </div>
             </div>
         </section>
 
         <article class="comments">
             <div class="comments__wrapper">
+                <h2 class="comments__desc heading2">Отзывы</h2>
                 <blockquote class="comments__item">
-                    <b class="comments__desc">Отзывы</b>
                     <p class="comments__cite">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных
                         инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более 
                         стильными, а также набирают больше лайков!
                     </p>
                     <cite class="comments__name">Анастасия Красильникова <br>@misssssiskras</cite>
                 </blockquote>
-                <button class="slider__toggle" type="button">
-                    <img class="comments__img1" src="img/#.svg" alt="" width="" height="">
-                </button>
-                <button class="slider__toggle" type="button">
-                    <img class="comments__img1" src="img/#.svg" alt="" width="" height="">
-                </button>
-                <a class="comments__btn button">написать</a>
+                <div class="comments__nav">
+                    <button class="slider-toggle slider-toggle--left" type="button">
+                        <img class="comments__img1" src="img/#.svg" alt="" width="" height="">
+                    </button>
+                    <button class="slider-toggle slider-toggle--right" type="button">
+                        <img class="comments__img1" src="img/#.svg" alt="" width="" height="">
+                    </button>
+                </div>
+                <a class="comments__btn button" href="#">написать</a>
             </div>
         </article>
+
+        <section class="contacts">
+            <h2 class="contacts__heading">Контакты</h2>
+            <div class="contacts__wrapper">
+                <p>
+                    <span class="contacts__name">e-mail</span>
+                    <a href="mailto:info@mimimishka.ru">info@mimimishka.ru</a>
+                </p>
+                <p>
+                    <span class="contacts__name">адрес:</span>
+                    г.Санкт-Петербург, ул. Большая Конюшенная, д.19/8, офис 101
+                </p>
+            </div>
+            <img src="#" width="" height="" alt="карта">
+            <a class="contacts__btn button" href="#">напишите нам</a>
+        </section>
     </main>
+
+    <footer class="footer">
+        <div class="socials">
+            <a href="#" aria-label="инстаграмм">
+                <img src="#" width="" height="" alt="">
+            </a> 
+            <a href="#" aria-label="фэйсбук">   
+                <img src="#" width="" height="" alt="">
+            </a>
+            <a href="#" aria-label="твиттер">
+                <img src="#" width="" height="" alt="">
+            </a>
+        </div>
+        <div class="copyright">
+            <span class="copyright__text">Разработано</span>
+            <a href="#" aria-label="академия">
+                <img src="#" width="" height="" alt="">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
